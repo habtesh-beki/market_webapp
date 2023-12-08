@@ -1,0 +1,149 @@
+.our-products-art{
+    margin: 7em 0 ;
+}
+.article-title{
+    font-size: 3.5rem;
+    color: white;
+    text-align: center;
+}
+.our-products-container{
+    padding: 3em 0em;
+    background-color: #16191E;
+    margin-top: 6em;
+    min-width: 500px;
+    max-width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.products-art-furn{
+    position: relative;
+    display: grid;
+    text-align: left;
+    padding-left: 12em;
+    padding-right: 2em;
+    margin-bottom: 3em;
+   
+}
+.products-art-features{
+    position: relative;
+    display: grid;
+    text-align: right;
+    padding-right: 12em;
+    padding-left: 2em;
+    justify-items: right;
+    margin: 3em 0;
+}
+.products-art-floor{
+    position: relative;
+    display: grid;
+    text-align: left;
+    padding-left: 12em;
+    padding-right: 2em;
+    justify-items: left;
+    margin-top: 3em;
+}
+.product-title{
+    color: white;
+    font-size: 2.2rem;
+    margin-bottom: 1em;
+   
+}
+.product-desc{
+    color: #9fa7ac;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    margin-bottom: 1em;
+}
+.shop-online-link{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+}
+.horizontal-line{
+    padding: 0 12em;
+}
+.line{
+    border: solid #9fa7ac;
+    border-width: 1px;
+}
+
+.materials-container{
+    margin-top: 6em;
+    min-width: 500px;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    gap: 10px;
+    row-gap: 30px;
+    height: max-content;
+}
+.balls{
+    height: 15rem;
+    width: 15rem;
+    background-color: aqua;
+    border-radius: 50%;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+}
+.blue{
+    background-color: #638bbf;
+}
+.light-blue{
+    background-color: #a0c4f2;
+}
+.yellow{
+    background-color: #f2eeb3;
+}
+.orange{
+    background-color: #f2b66d;
+}
+.red{
+    background-color: #bf604b;
+}
+.material-name{
+    font-size: 1.5rem;
+    color: #1a1f23;
+}
+.material-hover-fx{
+    transform: scale(1);
+    transition: 0.1s linear;
+
+}
+.material-hover-fx:hover{
+  transform: scale(1.1);  
+}
+.cupboard-container{
+    position: absolute;
+    width: 200px;
+    z-index: 1000;
+    top: -50px;
+    left: -100px;
+}
+.cupboard-photo{
+    width: 100%;
+}
+.kitchen-container{
+    position: absolute;
+    width: 200px;
+    z-index: 1000;
+    bottom: -50px;
+    left: -100px;
+}
+.kitchen-photo{
+    width: 100%;
+}
+.dining-container{
+    position: absolute;
+   z-index: 1000;
+   width: 200px;
+   right: -100px;
+   top: -50px;
+}
+.dining-photo{
+    width: 100%;
+    
+}

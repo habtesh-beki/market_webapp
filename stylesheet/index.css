@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.btn-hover-effect:hover{
+    background-color: #495661;
+}
+.btn-hover-effect{
+    transition: 0.1s linear;
+}
+body{
+    background-color: #1a1f23;
+    font-family: 'Playfair Display';
+}
+.article-title{
+    font-size: 3.5rem;
+    color: white;
+    text-align: center;
+}

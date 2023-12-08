@@ -1,0 +1,116 @@
+.hot-sales-art{
+min-width: 700px;
+max-width: 80%;
+margin-left: auto;
+margin-right: auto;
+
+}
+.hot-sales-promotion-card{
+ 
+}
+.hot-sales-container{
+    height: 25em;
+    position: relative;
+    /* overflow: hidden; */
+}
+.hot-sales-pic-container{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.hot-sales-pic{
+    background-color: #638bbf;
+    width: 100%;
+     
+}
+.hot-sales-off-amount{
+    position: absolute;
+    top: -4px;
+    right: -4px;
+   background-color: orangered;
+   height: 3em;
+   width: 6em;
+   color: honeydew;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   display: grid;
+   place-items: center;
+   font-size: 1.5rem;
+   border-bottom-left-radius: 7px;
+}
+.hot-sales-name-container{
+    position: absolute;
+    bottom: 2.5em;
+    left: 2.5em;
+    display: grid;
+    row-gap: 1em;
+}
+.hot-sales-name{
+    font-size: 1.8rem;
+    background-color: white;
+    color: black;
+    padding: 0.2em 0.8em;
+    width: 80%;
+}
+.hot-sales-price-btn{
+    width: 10em;
+    padding: 0.6em 0;
+    font-weight: bold;
+    background-color: orangered;
+    border: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.7rem;
+    border-radius: 7px;
+}
+.shopping-shelf-art{
+ min-width: 600px;
+ max-width: 70%;
+ margin-left: auto;
+ margin-right: auto;   
+ margin-top: 7em;
+}
+.shopping-product-card{
+    height: 25em;
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-rows:80%  20%;
+    box-shadow: -0.8em -0.3em 30px rgba(0, 0, 0, 0.34);
+}
+.product-pic{
+    background-color: #638bbf;
+    height: 100%;
+}
+.product-price-btn{
+    position: absolute;
+    transform:translate(-50% ,-50%);/* the button transform center */
+    top: 70%;
+    left: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    width: 50%;
+    font-size: 1.7rem;
+    font-weight: bold;
+    background-color: #23282e;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    padding: 0.3em 0;
+
+}
+.name-container{
+    display: grid;
+    align-items: center;
+
+}
+.product-name{
+    font-size: 1.8rem;
+    color: #9fa7ac;
+    padding: 0 1em;
+}
+.product-card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    row-gap: 20px;
+}
